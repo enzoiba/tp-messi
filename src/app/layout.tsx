@@ -1,3 +1,6 @@
+import "./globals.css";
+
+
 export const metadata = {
   title: "Leo Messi - Sitio Oficial de Fans",
   description: "Información, logros y más sobre Lionel Messi",
@@ -10,10 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="body">
-        <header className="header">
+      <body className="">
+        <header className="">
           <h1>Leo Messi</h1>
-          <nav className="nav">
+          <nav className="">
             <a href="/">Inicio</a>
             <a href="/caracteristicas">Características</a>
             <a href="/historia">Historia</a>
@@ -21,9 +24,9 @@ export default function RootLayout({
           </nav>
         </header>
 
-        <main className="main">{children}</main>
+        <main className="flex">{children}</main>
 
-        <footer className="footer">
+        <footer className="">
           &copy; 2025 Fans de Lionel Messi
         </footer>
       </body>
