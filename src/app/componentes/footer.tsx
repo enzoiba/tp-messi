@@ -2,7 +2,8 @@ import React from 'react'
 
 const footer = () => {
   return (
-    <div>
+    <div className="">
+          &copy; 2025 Fans de Lionel Messi
       
     </div>
   )

@@ -1,11 +1,16 @@
 import React from 'react'
+import Nav from './nav'
 
-const header = () => {
+const Header = () => {
   return (
-    <div>
-      <header className='#0033cc p-15 '> </header>
-    </div>
+ 
+      <header className="">
+          <h1>Leo Messi</h1>
+          <Nav />
+      </header>
+
+   
   )
 }
 
-export default header
+export default Header

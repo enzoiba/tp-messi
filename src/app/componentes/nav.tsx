@@ -1,16 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
-const nav = () => {
+const Nav = () => {
   return (
-    <div>
-      <nav>
-            <a href="/" style={{ margin: "0 10px", color: "white" }}>Inicio</a>
-            <a href="/caracteristicas" style={{ margin: "0 10px", color: "white" }}>Características</a>
-            <a href="/historia" style={{ margin: "0 10px", color: "white" }}>Historia</a>
-            <a href="/logros" style={{ margin: "0 10px", color: "white" }}>Logros</a>
-          </nav>
-    </div>
+      <nav >
+        <Link href="/" className="nav-link">Inicio</Link>
+        <Link href="/caracteristicas" className="nav-link">Características</Link>
+        <Link href="/historia" className="nav-link">Historia</Link>
+        <Link href="/logros" className="nav-link">Logros</Link>
+      </nav>
   )
 }
 
-export default nav
+export default Nav
